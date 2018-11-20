@@ -18,3 +18,5 @@ The two basic files are:
 
 Please note, that the db_refresh.py contains postgresql code, which fully drops every table and recreates the whole database and copies every data again and again every time -> I know that this is neither optimal, nor usual, nor elegant -> but it is quiet 'dumb-user-insured' for me, and since the program is planned to have a refresh like every week or so for shortest time, the plus 2 minutes every time is worth for now -> if it wasn't a dummy project, I searched for more advanced solutions.
 
+the two class-files are: ch1.py and dash_graph_upgrade.py
+ch1 is used mainly to create easier code to communicate with psycopg2, the postgresql package of python, the dash_grap_upgrade class was created to write shorter code for the graph callbacks.
